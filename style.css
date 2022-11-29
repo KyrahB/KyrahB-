@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Cookie&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+
+.main-nav {
+    background-color: palevioletred;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+}
+.main-nav {
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.Logo {
+    color: rgb(121, 4, 121);
+    font-size: 40px;
+    text-decoration: line-through;
+    font-weight: 900;
+    padding-right: 15rem;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type:none;
+}
+
+body{
+    background-color: pink;
+    font-family: 'cookie', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .about-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+.about-section {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-image img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.about-me{
+    padding: 6rem;
+    font-size: 1.5rem;
+}
+
+button{
+    padding:0.3rem 0.8rem;
+    background-color: palevioletred;
+    font-family: 'Concert One', cursive;
+}
